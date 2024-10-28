@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+
+    --c-primary: #fde5d6;
+    --c-secondary: #e4a576;
+    --c-baackground: #ccd5d2;
+    --c-dark: #698ea2;
+    --c-black: #152935;
+    --font-base:"Poppins", sans serif;
+}
+
+body{
+    font-family: var(--font-base);
+    font-size: 16px;
+    line-height: 1.6;
+}
+.h1 .h2 .h3 .h4 .h5 .h6{
+    font-weight: 600;
+}
+
+p{
+    font-family: var(--font-base);
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--c-primary);
+}
+
+a:hover{
+    color: var(--c-secondary);
+}
+
+.section-padding{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.btn{
+    font-weight: 600 !important;
+}
+
+.btn-primary{
+    background-color: var(--c-primary) !important;
+}
+
+.btn-primary:hover{
+    background-color: var(--c-secondary) !important;
+}
+
+.btn-light{
+    background-color: var(--c-baackground) !important;
+}
+
+.navbar{
+    font-family: var(--font-base);  
+    font-size: 16px;
+    font-weight: 500; 
+}
+
+.bg-light{
+    background-color: var(--c-black);
+}
+
+#hero{
+    background-image: url('/Website/IMG/hero.jpg'); /* Use the actual path to your image */
+  background-size: cover;         /* Ensures the image covers the hero section */
+  background-position: center;    /* Centers the image */
+  background-repeat: no-repeat;   /* Prevents the image from repeating */
+  height: 100vh;                  /* Full viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;    
+}
+
+.herotext{
+    font-size: 80px;
+}
+
+.brand-title{
+    font-size: 65px;
+    font-weight: 750;
+    font-family: var(--font-base);
+}
+
+.brand-p{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: var(--font-base);
+}
+
+.brand-p-2{
+    font-size: 20px;
+    font-family: var(--font-base);
+}
+
+.brand-title-light{
+    font-size: 55px;
+    font-weight: 650;
+    font-family: var(--font-base);
+    color: var(--c-baackground);
+}
+
+.iconbox{
+    background: var(--c-primary);
+    color: var(--c-primary);
+    width: 60px;
+    height: 65px;
+    align-items: center;
+    font-size: 35px;
+    flex: none;
+}
+
+h5 {
+    font-size: 1rem;
+    line-height: 1.375;
+  font-family: Rubik,Arial,sans-serif;
+    font-weight: 500;
+    color: #030929;
+}
+
+footer {
+    background: #ebf4fa;
+    font-weight: 400;
+    font-size: 1rem;
+    overflow-x: hidden;
+    color: #607289;
+  }
